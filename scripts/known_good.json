@@ -119,11 +119,11 @@
         {
             "name": "Vulkan-Profiles",
             "api": "vulkan",
-            "url": "https://github.com/KhronosGroup/Vulkan-Profiles.git",
+            "url": "https://github.com/RasterGrid/Vulkan-Profiles.git",
             "sub_dir": "Vulkan-Profiles",
             "build_dir": "Vulkan-Profiles/build",
             "install_dir": "Vulkan-Profiles/build/install",
-            "commit": "d5ea87de734cb789f000d012be7b2aea80bda13a",
+            "commit": "c73a696397d0c6f61716e08ba485b2803dcb9259",
             "build_step": "skip",
             "optional": [
                 "tests"
