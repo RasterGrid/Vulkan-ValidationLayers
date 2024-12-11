@@ -5306,6 +5306,7 @@ TEST_F(NegativeShaderObject, InvalidColorWriteMask) {
     if (res == VK_ERROR_FORMAT_NOT_SUPPORTED) {
         GTEST_SKIP() << "image format not supported as color attachment.";
     }
+    ASSERT_EQ(res, VK_SUCCESS);
 
     vkt::Image image(*m_device, 256, 256, 1, format, VK_IMAGE_USAGE_COLOR_ATTACHMENT_BIT);
     image.SetLayout(VK_IMAGE_LAYOUT_GENERAL);
